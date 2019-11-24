@@ -42,19 +42,10 @@ int WINAPI WinMain(
 	// メッセージをフックするウインドウプロージャを登録する
 	//注意：DxLib_Initを呼んだ後でないと　登録されない。
 	SetHookWinProc(WndProc);
-	//ＩＭＥを使用する
-	SetUseIMEFlag(TRUE);
 
 	// Setup ImGui binding
 	ImGui_ImplDxLib_Init();
 
-	//日本語フォント設定
-	ImGuiIO& io = ImGui::GetIO();
-	io.Fonts->AddFontFromFileTTF("ImGui\\mplus-1p-regular.ttf", 20.0f, NULL,
-		io.Fonts->GetGlyphRangesJapanese());
-
-	bool show_test_window = true;
-	bool show_another_window = false;
 	ImVec4 clear_col = ImColor(114, 144, 154);
 	SetBackgroundColor((int)(clear_col.x * 255.0f),
 		(int)(clear_col.y * 255.0f),
