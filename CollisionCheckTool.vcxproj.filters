@@ -13,5 +13,144 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\system">
+      <UniqueIdentifier>{713d4274-134a-43de-82f0-691fe864969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system\input">
+      <UniqueIdentifier>{5f2350a6-4e7d-4e18-9cbe-7a44b305b0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system\constants">
+      <UniqueIdentifier>{2190cbe9-b92c-46b9-b9f0-dba6129bc135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{9932c864-c8a4-463c-87ae-fdffd769d319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\intput">
+      <UniqueIdentifier>{88f252d8-4eec-4070-a2c5-e075bdeb00ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\scene">
+      <UniqueIdentifier>{87287a7b-e1df-4701-90fb-88b5126b0242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\system\scene">
+      <UniqueIdentifier>{a548f3f8-aa57-427b-86e1-886b76407044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\imgui">
+      <UniqueIdentifier>{f0c06111-a0b2-4ee3-9ea7-b7f94c655452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\imgui">
+      <UniqueIdentifier>{d73fc244-136f-4478-8c4c-a50a49b99e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\object">
+      <UniqueIdentifier>{157cebcc-4bc9-4bb0-995d-a341bc3c796e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\object">
+      <UniqueIdentifier>{2fcb76ce-987b-46b9-85c5-2df19c8871d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System\Input\InputKey.cpp">
+      <Filter>ソース ファイル\system\intput</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Fps.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Resident.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Scene\Scene.cpp">
+      <Filter>ソース ファイル\system\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\system\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SceneManager.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dxlib.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ソース ファイル\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectAABB.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectSphere.cpp">
+      <Filter>ソース ファイル\object</Filter>
+    </ClCompile>
+    <ClCompile Include="System\CollisionCheck.cpp">
+      <Filter>ソース ファイル\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants\WindowInfo.h">
+      <Filter>ヘッダー ファイル\system\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\InputKey.h">
+      <Filter>ヘッダー ファイル\system\input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\InputKeyState.h">
+      <Filter>ヘッダー ファイル\system\constants</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Fps.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Resident.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\Scene.h">
+      <Filter>ヘッダー ファイル\system\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\TitleScene.h">
+      <Filter>ヘッダー ファイル\system\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Scene\SceneType.h">
+      <Filter>ヘッダー ファイル\system\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SceneManager.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dxlib.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>ヘッダー ファイル\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectAABB.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
+    <ClInclude Include="System\CollisionCheck.h">
+      <Filter>ヘッダー ファイル\system</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectSphere.h">
+      <Filter>ヘッダー ファイル\object</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
